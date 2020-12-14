@@ -1,0 +1,54 @@
+name: my_budget_app
+description: A new Flutter application.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.1
+  font_awesome_flutter: ^8.10.0
+  dropdownfield: ^1.0.3
+  provider: ^4.3.2+2
+  image_picker: ^0.6.7+14
+  animated_text_kit: ^3.0.1
+  firebase_auth: ^0.18.4+1
+  cloud_firestore: ^0.14.4
+  firebase_core: ^0.5.3
+  modal_progress_hud: ^0.1.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  intl: ^0.16.1
+
+
+
+# The following section is specific to Flutter.
+flutter:
+
+
+  assets:
+   - assets/images/Saving.jpg
+   - assets/images/logo.png
+  uses-material-design: true
+
+  fonts:
+    - family: OpenSans
+      fonts:
+        - asset: assets/fonts/OpenSans-Regular.ttf
+        - asset: assets/fonts/OpenSans-Bold.ttf
+          weight: 700
+    - family: Quicksand
+      fonts:
+        - asset: assets/fonts/Quicksand-Regular.ttf
+        - asset: assets/fonts/Quicksand-Bold.ttf
+          weight: 700
